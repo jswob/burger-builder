@@ -3,7 +3,8 @@
   margin: auto;
   height: 250px;
   overflow: scroll;
-  text-align: bold;
+  text-align: center;
+  font-weight: bold;
   font-size: 1.2rem;
 }
 
