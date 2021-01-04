@@ -112,7 +112,7 @@ class BurgerBuilder extends Component {
   async componentDidMount() {
     try {
       const { data } = await axios.get(
-        "https://burger-builder-a2340-default-rtdb.firebaseio.com/ingredients.json"
+        "https://burger-builder-a2340-default-rtdb.firebaseio.com/ingredients.son"
       );
 
       this.setState({ ingredients: data });
